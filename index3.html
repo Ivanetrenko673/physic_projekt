@@ -60,10 +60,10 @@
         }
 
         function saveToGitHub(data) {
-            const repoOwner = 'your-username'; // Замініть на ваше ім'я користувача GitHub
-            const repoName = 'your-repository'; // Замініть на ваш репозиторій
+            const repoOwner = 'ivanetrenko673'; // Замініть на ваше ім'я користувача GitHub
+            const repoName = 'physic_projekt'; // Замініть на ваш репозиторій
             const filePath = 'data.json'; // Файл, у якому зберігатимуться дані
-            const apiToken = 'your-github-token'; // Ваш персональний токен доступу
+            const apiToken = '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'; // Ваш персональний токен доступу
 
             // Отримати поточний вміст файлу
             fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`, {
